@@ -3,7 +3,7 @@
     <ul class='title-area fore-front'>
       <li class='name'>
         <h1 class='cursive-font logo'>
-          <a class='logo' href="#">Souler System</a>
+          <a class='logo' href="/">Souler System</a>
         </h1>
       </li>
       <li class='toggle-topbar menu-icon'>
@@ -15,23 +15,23 @@
          <ul class='right'>
             <li class='divider'></li>
             <li>
-              <a href='#'>Individuals</a>
+              <%=link_to "Individuals", individual_path%>
             </li>
             <li class='divider'></li>
             <li>
-              <a href='#'>Communities</a>
-            </li>
-            <li class='divider'></li>
-            <li>
-            <li class='divider'></li>
-            <li>
-              <a href='#'>Businesses</a>
+              <%=link_to "Communities", community_path%>
             </li>
             <li class='divider'></li>
             <li>
             <li class='divider'></li>
             <li>
-              <a href='#'>About</a>
+              <%=link_to "Businesses", business_path%>
+            </li>
+            <li class='divider'></li>
+            <li>
+            <li class='divider'></li>
+            <li>
+              <%=link_to "About", about_path%>
             </li>
             <li class='divider'></li>
             <li>

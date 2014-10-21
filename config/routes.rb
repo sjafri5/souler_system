@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   root 'static_pages#index'
   get 'about' => 'static_pages#about'
+  get 'individual' => 'static_pages#individual'
+  get 'community' => 'static_pages#community'
+  get 'business' => 'static_pages#business'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

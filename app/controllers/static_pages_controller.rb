@@ -4,4 +4,14 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def individual
+  end
+
+  def community
+  end
+
+  def business
+  end
+  
 end
