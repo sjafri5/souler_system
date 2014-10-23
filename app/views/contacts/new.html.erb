@@ -1,0 +1,23 @@
+<div class='small-12 columns'>
+	<h4>Join Us!</h4>
+
+	<p>Are you interested in learning more about the Souler System program? If you're interested in participating in a 3 day workshop please give us some details so that we can provide you with more information.</p>
+	<div class='form-div'>
+
+	<%= form_for @contact do |f| %>
+	  <%= f.label :first_name %>
+	  <%= f.text_field :first_name %><br />
+
+	  <%= f.label :last_name %>
+	  <%= f.text_field :last_name %><br />
+
+	  <%= f.label :number %>
+	  <%= f.text_field :number %><br />
+
+	  <%= f.label :email %>
+	  <%= f.text_field :email %><br />
+
+	  <%= f.submit %>
+	<% end %>
+	</div>
+</div>

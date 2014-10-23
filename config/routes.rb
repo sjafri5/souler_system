@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'individual' => 'static_pages#individual'
   get 'community' => 'static_pages#community'
   get 'business' => 'static_pages#business'
+  resources :contacts
 
 
   # The priority is based upon order of creation: first created -> highest priority.
