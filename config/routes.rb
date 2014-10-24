@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  devise_for :admins
   root 'static_pages#index'
   get 'about' => 'static_pages#about'
   get 'individual' => 'static_pages#individual'
   get 'community' => 'static_pages#community'
   get 'business' => 'static_pages#business'
+  get 'admin' => 'admins#show'
+  get 'admins/sign_out' => 'admins#destroy'
   resources :contacts
 
 
