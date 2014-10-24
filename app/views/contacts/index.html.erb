@@ -5,11 +5,11 @@
 		<th>Number</th>
 		<th>email</th>
 	</tr>
-<%= @contacts.each do |c| %>
+<% @contacts.each do |c| %>
 	<tr>
-		<th>c.full_name</th>
-		<th>c.number</th>
-		<th>c.email</th>
+		<th><%= c.full_name %></th>
+		<th><%= c.number %></th>
+		<th><%= c.email %></th>
 	</tr>
 
 <%end%>
