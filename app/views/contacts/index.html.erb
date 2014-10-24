@@ -1,1 +1,16 @@
-all the contacts
+<h4>This is the list of individuals have filled out the concact form.</h4>
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Number</th>
+		<th>email</th>
+	</tr>
+<%= @contacts.each do |c| %>
+	<tr>
+		<th>c.full_name</th>
+		<th>c.number</th>
+		<th>c.email</th>
+	</tr>
+
+<%end%>
+</table>
